@@ -236,7 +236,7 @@ export default function Home() {
           return (
             <div className="bg-gray-100 p-4 mb-4" key={item.productSlug}>
               <h2 className="text-lg font-bold mb-2">{item.productSlug}</h2>
-              <p className="mb-1">{item.productPrice}</p>
+              <p className="mb-1">₹{item.productPrice}</p>
               <p className="mb-1">{item.productQuantity}</p>
             </div>
           );
