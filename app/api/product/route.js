@@ -6,7 +6,7 @@ export async function GET(request) {
   // Replace the uri string with your connection string.
 
 
-  const client = new MongoClient(MONGODB_URI);
+  const client = new MongoClient(process.env.MONGODB_URI);
 
   try {
     
